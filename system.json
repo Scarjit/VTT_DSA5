@@ -1,0 +1,32 @@
+{
+  "name": "dark-eye-5",
+  "title": "DSA 5 / TDE 5e",
+  "description": "The Dark Eye 5th Edition",
+  "version": "0.0.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.5",
+  "templateVersion": 2,
+  "author": "Scarjit",
+  "scripts": [],
+  "esmodules": [
+  ],
+  "styles": [
+  ],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": null,
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/Scarjit/VTT_DSA5",
+  "socket": true,
+  "manifest": "https://raw.githubusercontent.com/Scarjit/VTT_DSA5/main/system.json",
+  "download": "",
+  "license": "LICENSE.txt"
+}
