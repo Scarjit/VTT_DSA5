@@ -1,0 +1,360 @@
+[
+    {
+        "_id": "",
+        "name": "Beiß auf Granit!",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "FF (modifiziert durch ZK)"
+        },
+        "effect": "Feste Nahrungsmittel, die das Opfer berührt, werden zu Stein oder einer anderen Substanz, die die Hexe im Fluch benannt hat. Üblich sind neben Stein auch Holz, Mist oder Schleim. Edelmetalle oder Ähnliches sind nicht möglich. Die Lebensmittel verwandeln sich nach fünf Minuten wieder zurück, insofern das Opfer sie nicht berührt. Der Versuch, Lebensmittel mit Zangen oder Trichtern in den Mund zu führen, kann dazu führen, dass das Opfer an einem Stein im Hals erstickt. Für Suppen, Milch und andere Flüssigkeiten gilt der Fluch nicht.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 in Tagen",
+        "feature": "Objekt",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Beute!",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "CH (modifiziert durch SK)"
+        },
+        "effect": "Der Geruch des Opfers lockt alle Arten von fleischfressenden Wirbeltieren an. Diese sehen das Opfer als leichte Beute an. Während domestizierte Tiere mit einer um die Fertigkeitspunkte des Fluches erschwerten Tierkundeprobe beruhigt werden können, lassen sich wilde Tiere hiervon nicht abbringen. Der nur für die Tiere wahrnehmbare Geruch ist so stark, dass Wildtiere das Opfer bereits aus mehreren Meilen Entfernung wahrnehmen können.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 in Tagen",
+        "feature": "Einfluss",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Fellwechsel",
+        "publication": "Krallenspuren, Seite 11",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "KO (modifiziert durch ZK)"
+        },
+        "effect": "Das Opfer dieses Fluchs wird für die Wirkungsdauer in ein Tier oder eine Pflanze der Größenkategorie klein oderwinzig verwandelt. Es behält einen kleinen Teil seiner geistigen Fähigkeiten und Erinnerungen, übernimmt jedoch die körperlichen Fähigkeiten der neuen Gestalt. Das verwandelte Tier oder die Pflanze besitzt keine magischen oder übernatürlichen Fähigkeiten oder Eigenschaften, überträgt keine Krankheiten und ist nicht giftig. Ausrüstung und Kleidung werden nicht mitverwandelt. Verwandelte können sich nach dem Ende der Wirkungsdauer bruchstückhaft an die Zeit als Tier oder Pflanze erinnern.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 TageMerkmal: Verwandlung"
+    },
+    {
+        "_id": "",
+        "name": "Geschmackssinn nehmen",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "KO (modifiziert um ZK)"
+        },
+        "effect": "Der Fluch raubt dem Opfer seinen Geschmackssinn, sodass es, gleich welche Speise es zu sich nimmt, nichts schmeckt. Proben auf Sinnesschärfe (Suchen oder Wahrnehmen) misslingen automatisch, wenn sie den Geschmack betreffen.",
+        "asp_cost": "7 AsP",
+        "effective_period": "QS x 3 Wochen",
+        "feature": "Verwandlung",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Gestank anheften",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH (modifiziert um ZK)"
+        },
+        "effect": "Das Opfer des Fluchs erleidet den Status Übler Geruch bis zum Ende der Wirkungsdauer.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 Tage",
+        "feature": "Dämonisch",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Hagelschlag",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Auf einer Fläche von bis zu (QS x 20.000) Rechtschritt geht ein schwerer Hagelsturm nieder. Je nach Region kann auch ein Schnee- oder Sandsturm die Fläche verheeren. Solche Stürme können Ernten zerstören, Dächer abdecken und bei ungeschützten Tieren und Personen 2W6 TP Schaden pro 5 Minuten verursachen.",
+        "asp_cost": "21 AsP",
+        "effective_period": "QS x 15 Minuten",
+        "feature": "Elementar",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Hexenschuss",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "IN",
+            "1": "FF",
+            "2": "KO (modifiziert durch ZK)"
+        },
+        "effect": "Das Opfer erleidet plötzlich einen starken Schmerz im Rücken oder im Kopf, je nach Wahl der Hexe. Durch den Hexenschuss erleidet das Opfer eine Stufe des Zustands Schmerz.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 in Stunden",
+        "feature": "Verwandlung",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Hunger wecken",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "MU",
+            "1": "CH",
+            "2": "KO (modifiziert um SK)"
+        },
+        "effect": "Während der Wirkungsdauer ist das Opfer von einem nahezu unstillbaren Drang beseelt, Nahrung zu essen. Je süßer und fettiger die Speisen sind, desto lieber wird es sie verschlingen. Pro Tag, den der Fluch währt, nimmt das Opfer 1 Stein zu, sofern es nicht irgendwie am Essen gehindert wird oder die Nahrungsmittel ausgehen. Das Opfer ist auch bereit, das Essen von anderen Menschen zu vertilgen. Gerade, wenn das Fluchopfer lange nichts mehr gegessen hat, schaufelt es die Nahrung förmlich in sich hinein, was sehr unappetitlich aussehen kann. Nach einem solchen Gelage erleidet das Fluchopfer 1 Stufe Betäubung.",
+        "asp_cost": "7 AsP",
+        "effective_period": "QS x 3 Tage",
+        "feature": "Einfluss",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Juckreiz verursachen",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "MU",
+            "1": "KL",
+            "2": "IN (modifiziert um SK)"
+        },
+        "effect": "Das Opfer des Fluchs ist von einem ständigen Juckreiz betroffen. Dadurch erhält es 1 Stufe Verwirrung. Zudem ist seine Regeneration halbiert, sofern diese anfängt, während der Fluch noch wirkt.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 Stunden",
+        "feature": "Illusion",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Kornfäule",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "KO"
+        },
+        "effect": "Die Hexe kann mit diesem Fluch ein Feldvon 10 x 100 Rechtschritt durch Schädlinge wie Heuschrecken oder durch Pflanzenkrankheiten wie Mehltau zerstören. Die Hexe kann dabei die Art der Zerstörung nicht auswählen. Die Ernte ist binnen 7– QS Stunden vollständig zerstört. Einzelne Pflanzenlassen sich durch Umpflanzen auf ein nicht verfluchtes Gebiet retten. Auf dem Boden lassen sich QS Wochen lange keine Lebensmittel mehr anbauen. Alle Versuche innerhalb dieser Zeit sind zum Scheitern verurteilt.",
+        "asp_cost": "14 AsP",
+        "effective_period": "sofort",
+        "feature": "Dämonisch",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Krötenkuss",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "MU",
+            "1": "CH",
+            "2": "CH (modifiziert um SK)"
+        },
+        "effect": "Das Opfer ist von einer Aura umgeben, die es abstoßend für andere Kulturschaffende mach, und auch das Opfer empfindet Ekel vor sich selbst. Alle CH-Teilproben bei Fertigkeiten (beispielsweise auch Zauber und Liturgien) sind um 2 erschwert.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 Stunden",
+        "feature": "Dämonisch",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Miese Laune",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH (modifiziert um SK)"
+        },
+        "effect": "Durch diesen Fluch ist das Opfer ständig schlecht gelaunt. Es empfindet keine Freude oder Begeisterung mehr und regt sich schon über Kleinigkeiten auf. Proben auf Gesellschaftstalente (außer Einschüchtern, Menschenkenntnis und Willenskraft) sind um 2 erschwert.",
+        "asp_cost": "7 AsP",
+        "effective_period": "QS x 3 Stunden",
+        "feature": "Einfluss",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Mit Blindheit schlagen",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "CH (modifiziert um SK)"
+        },
+        "effect": "Das Opfer verliert schlagartig die Fähigkeit, seine Umgebung optisch wahrzunehmen, und erhält dadurch den Status Blind.",
+        "asp_cost": "21 AsP",
+        "effective_period": "QS x 30 Minuten",
+        "feature": "Einfluss",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Pech an den Hals wünschen",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "CH (modifiziert durch SK)"
+        },
+        "effect": "Neben der 20 gilt nun auch die 19 als Patzer. Für Patzer bei Fertigkeitsproben reicht es so, wenn zwei Würfel eine 19 oder mehr zeigen. Außerdem zerbricht das Opfer aus Versehen Gegenstände, stolpert über Hindernisse, vergisst Verabredungen oder tritt bei Gesprächen in Fettnäpfchen. Details entscheidet der Meister.",
+        "asp_cost": "7 AsP",
+        "effective_period": "QS x 3 in Tagen",
+        "feature": "Einfluss",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Pestilenz",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "MU",
+            "1": "CH",
+            "2": "GE (modifiziert durch ZK)"
+        },
+        "effect": "Das Opfer wird von der Hexe mit einer ihr bekannten Krankheit infiziert, maximal jedoch mit einer Krankheitsstufe gleich dem Fertigkeitswert des Fluches. Ab der Infektion verläuft die Krankheit wie normal, ist allerdings nicht ansteckend. Nicht wählbar sind magische Erkrankungen wie Duglumspest.",
+        "asp_cost": "Stufe der Krankheit in AsP",
+        "effective_period": "bis zum Ende der Krankheit, maximal aber QS x 3 in Tagen",
+        "feature": "Dämonisch",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Schlaf rauben",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "CH (modifiziert durch SK)"
+        },
+        "effect": "Das Opfer kann nicht schlafen. Wenn es doch für einige Sekunden einschläft, wird es von Alpträumen wieder aufgeschreckt. Regeneration ist in diesem Zustand nicht möglich. Es reagiert genauso wie andere Menschen, die lange Zeit wach gehalten werden, wird also fahrig, reizbar und erleidet nach einigen Tagen Sinnestäuschungen. Pro zwei Tagen ohne Schlaf erhält das Opfer eine Stufe Verwirrung, die erst abklingt, wenn es wieder schlafen kann.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 in Tagen",
+        "feature": "Einfluss",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Todesfluch",
+        "publication": "Aventurische Magie II Seite 24",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH (modifiziert um die SK)"
+        },
+        "effect": "Dieser Fluch wirkt gegen Kulturschaffende. Jeden Tag bei Sonnenaufgang verliert das Opfer 1W3+2 LeP. Während der Regenerationsphasen kann das Opfer keine LeP regenerieren. Auch Proben auf Heilkunde Wunden u. Ä. verschaffen keine zusätzlichen LeP. Heiltränke, Heilkräuter oder andere übernatürliche Wirkungen wie Zauber und Liturgien können aber verlorene Punkte regenerieren.",
+        "asp_cost": "21 AsP",
+        "effective_period": "QS x 3 Tage",
+        "feature": "Dämonisch",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Unfruchtbarkeit",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "IN",
+            "1": "FF",
+            "2": "KO (modifiziert durch ZK)"
+        },
+        "effect": "Das Opfer, Person oder Tier, ist nicht mehr in der Lage, Nachkommen zu zeugen oder zu gebären. Schwangere Wesen erleiden oft eine Miss- oder Totgeburt.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 in Wochen",
+        "feature": "Verwandlung",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Viehverstümmelung",
+        "publication": "Aventurische Magie II Seite 25",
+        "test": {
+            "0": "IN",
+            "1": "IN",
+            "2": "KO (modifiziert um SK)"
+        },
+        "effect": "Dieser Fluch kann nur auf ein Tier angewendet werden. Nicht betroffen davon sind magische Tiere wie Vertraute. Ein ausgewählter Körperteil des Tiers beginnt zu verdorren. Der Kopf oder der Rumpf können nicht gewählt werden. Das Tier überlebt den Fluch, ist danach aber verstümmelt.",
+        "annotation": " ",
+        "asp_cost": "7 AsP",
+        "effective_period": "QS Tage",
+        "feature": "Dämonisch"
+    },
+    {
+        "_id": "",
+        "name": "Warzen sprießen",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "IN",
+            "1": "FF",
+            "2": "KO (modifiziert durch ZK)"
+        },
+        "effect": "Dem Opfer wachsen innerhalb einiger Minuten dicke Warzen im Gesicht und an den Händen und verleihen ihm so eine Stufe des Nachteils Hässlich. Der Vorteil Gutaussehend wird hierdurch zeitweise Hässlich.",
+        "asp_cost": "7 AsP",
+        "effective_period": "QS x 3 in Tagen",
+        "feature": "Verwandlung",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Wollust verursachen",
+        "publication": "Aventurische Magie II Seite 25",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "KO (modifiziert um SK)"
+        },
+        "effect": "Während der Wirkungsdauer ist das Opfer brünstig und versucht, mindestens einmal stündlich einen geeigneten Sexualpartner zu finden. Das Aussehen des Sexualpartners spielt keine Rolle, nur ob der Verfluchte an dessen Geschlecht und Spezies interessiert ist. Während der Wirkungsdauer erhält das Fluchopfer die Schlechte Eigenschaft Brünstig, sodass im Zweifelsfalle der Spielleiter eine Probe auf Willenskraft (mindestens um 3 erschwert) verlangen sollte, damit das Opfer seine Wollust für die nächste Stunde unterdrücken kann. Das Verhalten des Verfluchten ist so aufdringlich und unbeherrscht, dass alle Gesellschaftstalente (außer Einschüchtern, Menschenkenntnis und Willenskraft) um 2 erschwert sind.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 Stunden",
+        "feature": "Einfluss",
+        "annotation": "                 Wege der Vereinigungen 184"
+    },
+    {
+        "_id": "",
+        "name": "Zunge lähmen",
+        "publication": "Regelwerk Seite 282",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "CH (modifiziert durch ZK)"
+        },
+        "effect": "Zunge und Lippen des Opfers sind gelähmt. Es kann daher nicht mehr artikuliert sprechen. Dies beeinflusst auch Zaubersprüche. Außerdem neigen so Verfluchte zu Speichelfluss. Der Verfluchte erhält den Status Stumm.",
+        "asp_cost": "14 AsP",
+        "effective_period": "QS x 3 in Stunden",
+        "feature": "Einfluss",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Zwei linke Hände",
+        "publication": "Aventurische Magie II Seite 26",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "FF (modifiziert um ZK)"
+        },
+        "effect": "Durch diesen Fluch ist das Opfer kaum noch in der Lage, seine handwerklichen Fähigkeiten einzusetzen. Seine rechte Hand verwandelt sich während der Dauer des Fluchs in eine linke (bei Linkshändern: in eine rechte, bei Beidhändigkeit werden beide Hände ausgetauscht). Alle Proben auf Handwerkstalente sind dadurch um 2 erschwert und jede gewürfelte 19 wird als 20 gewertet.",
+        "asp_cost": "7 AsP",
+        "effective_period": "QS x 3 Stunden",
+        "feature": "Verwandlung",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Ängste mehren",
+        "publication": "Aventurische Magie II Seite 22",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH (modifiziert um SK)"
+        },
+        "effect": "Die Hexe kann mit diesem Fluch ihrem Opferden Nachteil Angst vor … I anhexen. Sie kann dabei wählen, wovor das Opfer Angst haben soll. Sollte das Opfer bereits über diese Angst verfügen, erhöht sich die Stufe des Nachteils um 1. Bei einer Stufe, die über III liegt, erhält das Opfer bis zum Ende der Wirkung den Status Handlungsunfähig.",
+        "asp_cost": "14 AsP",
+        "effective_period": "",
+        "annotation": " ",
+        "feature": "Einfluss"
+    }
+]

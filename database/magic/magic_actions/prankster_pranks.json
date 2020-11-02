@@ -1,0 +1,363 @@
+[
+    {
+        "_id": "",
+        "name": "Aufgeblasen",
+        "publication": "Aventurische Magie II Seite 30",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "KO (modifiziert um ZK)"
+        },
+        "effect": "Das Ziel wird leichter als eine Feder und ist nicht länger der Schwerkraft ausgesetzt. Es bläst sich auf und erhebt sich dadurch mit einer Geschwindigkeit von 1 Schritt pro KR in die Luft, bis es eine Höhe von 10 Schritt erreicht hat. Während es sich dort befindet, sind alle seine Proben um 1 erschwert. Außerdem ist es dem Wind ausgeliefert, kann aber durch Stoßen und Ziehen gelenkt werden. Eine eigenständige Bewegung ist ebenfalls nur auf diesem Wege möglich. Gegen Ende der Wirkungsdauer sinkt das Ziel langsam herab, ein Sturz findet also nicht statt.",
+        "cast_time": "4 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "8 Schritt",
+        "effective_period": "QS Minuten",
+        "target_category": "Lebewesen",
+        "feature": "Verwandlung",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Dichter und Denker",
+        "publication": "Aventurische Magie II Seite 31",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "CH (modifiziert um SK)"
+        },
+        "effect": "Das Ziel kann sich nur noch in Reimen ausdrücken. Fällt ihm kein Reim ein, kann es nichts sagen. Es ist nicht möglich, diese Vorgabe zu umgehen, indem Sätze unvollständig ausgesprochen werden. Es muss also erst der Reim feststehen, bevor mit dem Sprechen begonnen werden kann. Auch das Wirken von Zaubern ist davon betroffen, wenn die verwendete Tradition eine Sprachkomponente erfordert. Dies sorgt für Schwierigkeiten bei Unterhaltungen und nach Meisterentscheid auch für Erschwernisse von 2 bei Gesellschaftstalenten (außer Menschenkenntnis und Willenskraft). Die Spieler müssen nicht reimen, auch wenn ihr Held davon betroffen ist.",
+        "cast_time": "2 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "4 Schritt",
+        "effective_period": "QS Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Einfluss",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Holterdipolter",
+        "publication": "Aventurische Magie II Seite 31",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "FF"
+        },
+        "effect": "Der Streich löst ein Chaos aus. Leute stolpern oder verhalten sich ungeschickt. Innerhalb einer Zone 8 Schritt Radius um den Zauberer herum werden alle Handlungen um QS/2 erschwert. Dies umfasst auch AT, VW und FK. Die Magie wirkt nicht auf den Schelm.",
+        "cast_time": "4 Aktionen",
+        "asp_cost": "16 AsP",
+        "range": "selbst",
+        "effective_period": "QS x 2 KR",
+        "target_category": "Zone",
+        "feature": "Telekinese",
+        "growth_factor": "C",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Juckpulver",
+        "publication": "Aventurische Magie II Seite 31",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Das Opfer wird zunehmend von Juckreiz geplagt. Am Anfang jeder Minute der Wirkungsdauer muss es eine Probe auf Selbstbeherrschung (Störungen ignorieren) ablegen. Gelingt die Probe, passiert nichts weiter, misslingt die Probe, muss sich das Opfer so heftig kratzen, dass alle Handlungen um QS/2 erschwert sind. Dies umfasst auch AT, VW und FK. Ist die Selbstbeherrschung-Probe einmal gescheitert, ist das Opfer die restliche Wirkungsdauer von dem Juckreiz erfasst und kann sich dagegen nicht mehr wehren.",
+        "cast_time": "2 Aktionen",
+        "asp_cost": "4 AsP",
+        "range": "4 Schritt",
+        "effective_period": "5 KR",
+        "target_category": "Kulturschaffende",
+        "feature": "Einfluss",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Koboldgeschenk",
+        "publication": "Aventurische Magie II Seite 31",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "FF (modifiziert um SK)"
+        },
+        "effect": "Ein vom Anwender des Spruchs bestimmtes Objekt erscheint dem Ziel als anderes Objekt nach Wunsch des Zauberers. Das Objekt darf nicht mehr als 1 Stein wiegen, zudem muss seine Ausdehnung etwa jener des vorgegaukelten Objekts entsprechen. Der falsche Eindruck betrifft alle Sinne. Beispielsweise kann so aus einem Kohleklumpen scheinbar ein Stück Gold entstehen.",
+        "cast_time": "8 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "4 Schritt",
+        "effective_period": "QS x 2 Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Einfluss",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Lach dich gesund",
+        "publication": "Aventurische Magie II Seite 31",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "FF"
+        },
+        "effect": "Das Ziel wird in einen erheiterten Rauschzustand versetzt und muss über jeden noch so schlechten Witz lachen. Der Schelmenstreich wirkt auf bis zu QS Zuhörer in Reichweite, die der Schelm sich aussuchen kann. Nach Ablauf der Wirkungsdauer erhalten alle ausgewählten Ziele 1W3 LeP zurück. Werden sie während des Lachens ernsthaft gestört (z. B. durch einen Angriff), bricht der Streich ab und gilt als misslungen. Selbst wenn der Streich vor dem Ablauf der durch den KO-Wert angegebenen Frist für den Tod eines Helden begonnen wird, setzt dies den Sterbeprozess nicht aus.",
+        "cast_time": "2 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "4 Schritt",
+        "effective_period": "5 Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Heilung",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Lachkrampf",
+        "publication": "Aventurische Magie II Seite 32",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "FF (modifiziert um SK)"
+        },
+        "effect": "Das Ziel bricht in derart schallendes Gelächter aus, dass es den Status Handlungsunfähig erhält. Allerdings gilt das Opfer nicht als Liegend. Es kann sich jedoch nur noch mit halber GS fortbewegen. Proben auf Attacken und Fernkampf, um das Opfer der Verzauberung zu treffen, sind aufgrund der unvorhersehbaren Bewegungen während des Lachkrampfs um 4 erschwert.",
+        "cast_time": "4 Aktionen",
+        "asp_cost": "16 AsP",
+        "range": "8 Schritt",
+        "effective_period": "QS Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Einfluss",
+        "growth_factor": "C",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Langer Lulatsch, Kleiner Dotz",
+        "publication": "Aventurische Magie II Seite 32",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "GE (modifiziert um ZK)"
+        },
+        "effect": "Der Körper des Ziels wird nach Wahl des Schelms um 50 % gestreckt oder um 50 % gestaucht. Zu einer Veränderung seiner Masse kommt es dabei nicht, sodass er gleichzeitig entsprechend dünner oder dicker wird. Die Kleidung des Ziels passt sich weitgehend der neuen Größe an. Im Einzelfall entscheidet dies der Meister. Während der Wirkungsdauer sind alle Körpertalente, AT, VW, FK um QS/2 Punkte erschwert.",
+        "cast_time": "4 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "8 Schritt",
+        "effective_period": "QS Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Verwandlung",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Meister minderer Geister",
+        "publication": "Aventurische Magie II Seite 32",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Der Zauberer ruft einen Mindergeist herbei, der nicht seiner Kontrolle unterworfen ist, aber durchaus mit Worten beeinflusst werden kann. Nach maximal QS x 3 Minuten wird dieser wieder verschwinden. Die Mindergeister können jeden in Reichweite stören und jede KR mit einer freien Aktion vom Schelm darum gebeten werden, jemand anderen zu nerven. Das Stören bringt eine Erschwernis von 1 auf alle Fertigkeitsproben mit sich. Bei mehreren Mindergeistern addieren sich die Wirkung nicht auf.",
+        "cast_time": "2 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "16 Schritt",
+        "effective_period": "QS x 3 Minuten",
+        "target_category": "Elementar (Mindergeister)",
+        "feature": "Sphären",
+        "growth_factor": "A",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Murks und Patz",
+        "publication": "Aventurische Magie II Seite 32",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "FF (modifiziert um SK)"
+        },
+        "effect": "Der Schelm kann seinem Opfer mit diesem Spruch eine tölpelhafte Ungeschicklichkeit auf den Leib zaubern. Dem Ziel unterläuft mit höherer Wahrscheinlichkeit ein Patzer. Bei einer Probe auf AT, VW und FK steigt die Wahrscheinlichkeit für einen Patzer (also z. B. von 20 auf 19-20 bei einer Probe mit 1W20, bei einer 3W20-Probe wird die 19 wie eine 20 behandelt). Kommt es dadurch zu einem Patzer, stellt dieser jedoch lediglich ein besonders großes Missgeschick dar, ohne mit körperlichem Schaden für das Ziel einher zu gehen. Einen Zustand oder Status kann es hingegen ganz normal erhalten. Das Opfer erleidet üblicherweise keine SP, dafür aber meist den Status Liegend.",
+        "cast_time": "2 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "8 Schritt",
+        "effective_period": "QS x 3 KR",
+        "target_category": "Kulturschaffende",
+        "feature": "Einfluss",
+        "growth_factor": "A",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Nackedei",
+        "publication": "Aventurische Magie II Seite 32",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "FF"
+        },
+        "effect": "Möchte ein Schelm sein Opfer in besonders großem Maße bloßstellen, greift er auf diesen Streich zurück und befreit er eine Person von aller bedeckenden Kleidung. Die Kleidung einer Person rutscht ihrem Träger vom Körper und lässt ihn nackt dastehen. Dies gilt für jede Art von Kleidung, aber Rüstungen sind nur von diesem Streich betroffen, wenn die QS den RS erreicht. Je nach QS wird mehr oder weniger viel ausgezogen. Kopfbedeckungen fallen erst bei einer QS 6 ebenfalls zu Boden, ansonsten rutschen sie nicht vom Kopf. Das Ziel muss zudem nach dem Willen des Schelms nicht immer komplett nackt dastehen. Wichtig ist nur, dass es lustig aussieht.",
+        "cast_time": "4 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "8 Schritt",
+        "effective_period": "sofort",
+        "target_category": "Objekte",
+        "feature": "Telekinese",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Papperlapapp",
+        "publication": "Aventurische Magie II Seite 32",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "FF"
+        },
+        "effect": "Der Spruch verwandelt jedes Wort, das die Lippen der Opfer verlässt, in unverständliches Gebrabbel. Innerhalb eines Radius von 4 Schritt um den Zauberer herum vermag sich niemand mehr für andere verständlich auszudrücken. Die Wirkung schließt jedoch nur das gesprochene Wort ein, dem selbst Außenstehende keinen Sinn mehr entnehmen können. Schrift, Gesten, Bilder und Telepathie sind hingegen normal nutzbar. Betroffen sind lediglich solche Personen, deren SK nicht größer ist als die die SK, die ein Schelm ignorieren kann. Der Zustand hält auch nach dem Verlassen der Zone bis zum Ende der Wirkungsdauer an. Zauber und Liturgien sind nicht betroffen, wohl aber SF, die Sprache erfordern (etwa Anführer).",
+        "cast_time": "4 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "selbst",
+        "effective_period": "QS x 2 Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Einfluss",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Schelmenkleister",
+        "publication": "Aventurische Magie II Seite 33",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "GE"
+        },
+        "effect": "Um einen Punkt innerhalb der Reichweite breitet sich eine Zone mit einem Radius von 4 Schritt aus, in der sich der Boden mit einer klebrigen Schicht überzieht. Dadurch verringert sich die GS aller die Zone durchquerenden Lebewesen um 1W6+3. Sinkt sie dadurch auf 0, erhält das entsprechende Wesen den Status Fixiert.",
+        "cast_time": "2 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "16 Schritt",
+        "effective_period": "QS x 2 KR",
+        "target_category": "Zone",
+        "feature": "Objekt",
+        "growth_factor": "C",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Schelmenlaune",
+        "publication": "Aventurische Magie II Seite 33",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Alle Kulturschaffenden im Umkreis des Schelms übernehmen dessen aktuelle Laune, solange sie sich nicht weiter als 4 Schritt von ihm entfernt befinden. Ihre SK darf dabei den Wert, den der Schelm ignorieren kann, nicht übersteigen. Ändert sich die Laune des Schelms während der Wirkungsdauer, ändert sie sich auch bei den betroffenen Personen. Der Zustand hält auch nach dem Verlassen der Zone bis zum Ende der Wirkungsdauer an, in diesem Fall bleibt jedoch die beim Verlassen aktuelle Laune erhalten und wird nicht mehr verändert. Ein nachträgliches Betreten führt nicht zu einer Verzauberung, ein erneutes Betreten nicht zu einer Änderung der Laune.",
+        "cast_time": "4 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "selbst",
+        "effective_period": "QS x 3 Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Einfluss",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Schelmenmaske",
+        "publication": "Aventurische Magie II Seite 33",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "GE"
+        },
+        "effect": "Das Gesicht des Zauberers erscheint als das eines Anderen. Das genaue Ergebnis kann dabei nicht bestimmt werden, vielmehr ist es zufälliger Natur, auch wenn es zu besonders pointierten Zügen neigt. Stimme, Statur, Mimik oder Kleidung werden nichtvom Zauber betroffen. Details zum Thema Illusionen finden sich im Regelwerk auf Seite 259.",
+        "cast_time": "4 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "selbst",
+        "effective_period": "QS x 3 Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Illusion",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Schelmenrausch",
+        "publication": "Aventurische Magie II Seite 33",
+        "test": {
+            "0": "KL",
+            "1": "IN",
+            "2": "CH (modifiziert um SK)"
+        },
+        "effect": "Das Ziel wird in einen rauschhaften Glückzustand versetzt, in dem ihm nicht der Sinn danach steht, aggressives Verhalten zu zeigen. Gleichzeitig verliert es sämtliche Ängste. Wird es mit einer für ihn grob gesundheitsgefährdenden oder sogar lebensbedrohlichen Situation konfrontiert, endet der Zauber vorzeitig.",
+        "cast_time": "2 Aktionen",
+        "asp_cost": "8 AsP",
+        "range": "8 Schritt",
+        "effective_period": "QS x 3 Minuten",
+        "target_category": "Kulturschaffende",
+        "feature": "Einfluss",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Tauschrausch",
+        "publication": "Aventurische Magie II Seite 33",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "FF"
+        },
+        "effect": "Zwei Objekte innerhalb der Reichweite tauschen ihren Platz. Der Schelm muss nicht beide Objekte sehen können, aber er muss wissen, wo sich das ein Objekt, dass er nicht sehen kann, befindet. Da der Tauschvorgang mittels einer Teleportation durch den Limbus geschieht, ist er nur für solche Wesen zu bemerken, die das Objekt im Blickfeld haben. Das Maximalgewicht beider Objekte zusammen beträgt jeweils QS Stein. Zudem dürfen sie nicht festgehalten werden oder an etwas anderem befestigt sein, sodass man sie nicht ohne größeren Kraftaufwand mit der Hand entfernen könnte.",
+        "cast_time": "2 Aktionen",
+        "asp_cost": "4 AsP",
+        "range": "8 Schritt",
+        "effective_period": "sofort",
+        "target_category": "Objekte",
+        "feature": "Sphären",
+        "growth_factor": "A",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Verschwindibus",
+        "publication": "Aventurische Magie II Seite 34",
+        "test": {
+            "0": "IN",
+            "1": "CH",
+            "2": "FF"
+        },
+        "effect": "Ein vom Zauberer ausgewähltes Objekt wird in den Limbus versetzt und kehrt erst nach Ablauf der Wirkungsdauer zurück. Das Maximalgewicht des Objekts beträgt QS Stein. Zudem darf es nicht derartig festgehalten werden oder an etwas anderem befestigt sein, dass man es nicht auch ohne größeren Kraftaufwand mit der Hand entfernen könnte. Das Objekt taucht genau dort wieder auf, wo es verschwunden ist.",
+        "cast_time": "1 Aktion",
+        "asp_cost": "8 AsP",
+        "range": "Berührung",
+        "effective_period": "QS x 3 Minuten",
+        "target_category": "Objekte",
+        "feature": "Sphären",
+        "growth_factor": "B",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Zagibu Ubigaz",
+        "publication": "Aventurische Magie II Seite 34",
+        "test": {
+            "0": "KL",
+            "1": "CH",
+            "2": "KK"
+        },
+        "effect": "Dieser Zauber ist dazu da, um Gegenstände, darunter insbesondere Schätze, zu zerstören. Das verzauberte Objekt verliert QS x 5 Strukturpunkte. Goldmünzen haben beispielsweise 5 Strukturpunkte, Edelsteine im Durchschnitt 25 Strukturpunkte",
+        "cast_time": "1 Aktion",
+        "asp_cost": "4 AsP",
+        "range": "8 Schritt",
+        "effective_period": "sofort",
+        "target_category": "Objekte (profane Objekte)",
+        "feature": "Objekt",
+        "growth_factor": "A",
+        "annotation": " "
+    }
+]
