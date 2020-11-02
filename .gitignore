@@ -59,6 +59,10 @@
 # CMake
 cmake-build-*/
 
+# Pycharm
+.venv/
+venv/
+
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
 
