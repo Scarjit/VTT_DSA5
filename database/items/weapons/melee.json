@@ -3,10 +3,11 @@
     "name": "",
     "combat_technique": "",
     "damage": "",
-    "leading_attrib": {
-        0:
+    "primary_attribute": {
+        "0": "",
+        "1": ""
     },
-    "dmg_threshold": 0,
+    "damage_threshold": 0,
     "at_mod": 0,
     "pa_mod": 0,
     "range": "",
