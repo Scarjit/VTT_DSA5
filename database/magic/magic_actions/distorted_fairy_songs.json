@@ -1,0 +1,88 @@
+[
+    {
+        "_id": "",
+        "name": "Kakophonie des Wahnsinns",
+        "publication": "Klingen der Nacht Seite 105",
+        "test": {
+            "0": "MU",
+            "1": "KL",
+            "2": "CH"
+        },
+        "effect": "Solange das Lied gespielt wird, erhalten alle Lebewesen im Radius von QS x 3 Schritt 2 Stufen des Zustands Verwirrung. Betroffen sind nur solche Wesen, deren SK die QS des Liedes nicht übersteigen. Nachtalben sind gegen die Auswirkungen immun.",
+        "talent": "Musizieren",
+        "asp_cost": "8 AsP pro 5 Minuten",
+        "feature": "Einfluss",
+        "growth_factor": "C",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Lied des Schmerzes",
+        "publication": "Klingen der Nacht Seite 106",
+        "test": {
+            "0": "MU",
+            "1": "KL",
+            "2": "IN"
+        },
+        "effect": "Alle Lebewesen innerhalb von QS x 3 Schritt erhalten während des Spielens 2 Stufen des Zustands Schmerz. Betroffen sind nur solche Wesen, deren SK die QS des Lieds nicht übersteigen. Nachtalben sind gegen die Auswirkungen immun.",
+        "talent": "Singen",
+        "asp_cost": "8 AsP pro 5 Minuten",
+        "feature": "Einfluss",
+        "growth_factor": "D",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Sturmlied",
+        "publication": "Klingen der Nacht Seite 106",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "KO"
+        },
+        "effect": "Solange das Lied gespielt wird, steigt die Windgeschwindigkeit innerhalb eines Radius’ von QS x 10 Schritt um QS/2 Stufen (maximal ist Stufe 4 möglich). Der Spielende ist selbst nicht von den Auswirkungen betroffen.",
+        "talent": "Musizieren oder Singen",
+        "asp_cost": "2 AsP pro Minute",
+        "feature": "Elementar",
+        "growth_factor": "B",
+        "annotation": " ",
+        "level": {
+            "1": "Windstill",
+            "2": "Brise",
+            "3": "Sturm",
+            "4": "Orkan, jede KR 1 Aktion aufwenden und Probe auf Körperbeherrschung (Balance), um nichts den Status Liegend zu erhalten."
+        }
+    },
+    {
+        "_id": "",
+        "name": "Sklavenlied",
+        "publication": "Klingen der Nacht Seite 106",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Innerhalb von QS Schritt befindliche Personen sind von dem Lied betroffen und folgen den gedanklichen Befehlen des Musizierenden, solange es gespielt wird. Betroffene werden diesen nachkommen, solange die Anweisungen dem Selbsterhaltungstrieb nicht im groben Maße widersprechen. Sie werden also einen Diebstahl begehen, Fragen beantworten und dem Zauberer im Kampf beistehen, nicht aber etwa von einer Klippe springen oder ihre eigenen Hände verspeisen. Sie vermögen zudem nichts Anderes zu tun, als das, was explizit befohlen wurde oder zur Erfüllung des Befehls notwendig ist. Betroffen sind nur solche Wesen, deren aufsummierte SK die QS des Lieds nicht übersteigen, beginnend bei den Wesen mit der niedrigsten SK (bei Gleichstand nach der Wahl des Shakagra). Negative SK zählt bei der Aufsummeriung als 0. Wer droht, von der Wirkung betroffen zu sein, kann eine Probe auf Willenskraft –3 ablegen, gelingt die Probe, so zählt die SK dennoch zur Gesamtsumme. Nachtalben sind gegen die Auswirkungen immun.",
+        "talent": "Musizieren",
+        "asp_cost": "4 AsP pro Minute",
+        "feature": "Einfluss",
+        "growth_factor": "D",
+        "annotation": " "
+    },
+    {
+        "_id": "",
+        "name": "Schlachtlied",
+        "publication": "Klingen der Nacht Seite 105",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Alle Personen innerhalb von QS x 3 Schritt, die auf der Seite des Musizierenden streiten, erhalten eine Erleichterung von 1 Punkt auf alle Attacken und Paraden. Der Spielende selbst ist nicht davon betroffen und kann, wie bei den Verzerrten Elfenliedern üblich, nur eine Bewegungshandlung durchführen.",
+        "talent": "Musizieren oder Singen",
+        "asp_cost": "1 AsP pro Kampfrunde",
+        "feature": "Heilung",
+        "growth_factor": "B",
+        "annotation": " "
+    }
+]

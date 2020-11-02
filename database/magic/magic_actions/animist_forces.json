@@ -1,21 +1,155 @@
 [
     {
         "_id": "",
+        "name": "Blut trinken",
+        "publication": "Aventurische Magie 3, Seite 15",
         "test": {
-            "0": "",
-            "1": "",
-            "2": ""
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
         },
-        "effect": "",
-        "asp_cost": "",
-        "effective_period": "",
-        "feature": "",
-        "tribal_tradition": [
-
-        ],
-        "growth_factor": "",
-        "publication": [
-            ""
-        ]
+        "effect": "Der Animist kann das Blut eines von ihm getöteten Kulturschaffenden trinken, um sich dessen letzte Lebenskräfte anzueignen. Dadurch kann der Animist QS LeP bei sich heilen, allerdings nur maximal bis zum eigenen Maximalwert. Der Einsatz dieser Fähigkeit dauert mindestens 2 Aktionen, nach Meisterentscheid auch noch länger.",
+        "asp_cost": "3 AsP",
+        "effective_period": "sofort",
+        "feature": "Heilung",
+        "tribal_tradition": {
+            "0": "Ferkinas",
+            "1": "Mohas",
+            "2": "Trollzacker"
+        },
+        "growth_factor": "B"
+    },
+    {
+        "_id": "",
+        "name": "Durch feste Materie",
+        "publication": "Aventurische Magie 3, Seite 16",
+        "test": {
+            "0": "IN",
+            "1": "IN",
+            "2": "KO"
+        },
+        "effect": "Der Animist lässt eine Wesenheit in sich einfahren, die seinen physischen Körper und sein Traditionsartefakt durchscheinend werden lässt. Er kann sich während der Wirkungsdauer durch feste, unbelebte Materie und Objekte wie Wände, Türen und Tische, nicht aber durch lebende Wesen, hindurchbewegen. Der Animist ist während der Wirkungsdauer immun gegen profane Waffen, nicht jedoch gegen magische oder karmale Waffen oder Angriffe.",
+        "asp_cost": "4 AsP (Aktivierung) + 2 AsP pro KR",
+        "effective_period": "QS x 2 KR",
+        "feature": "Verwandlung",
+        "tribal_tradition": {
+            "0": "Mohas",
+            "1": "Trollzacker"
+        },
+        "growth_factor": "C"
+    },
+    {
+        "_id": "",
+        "name": "Großer Sprung",
+        "publication": "Aventurische Magie 3, Seite 16",
+        "test": {
+            "0": "IN",
+            "1": "GE",
+            "2": "KO"
+        },
+        "effect": "Der Animist kann mit dieser Kraft erstaunlich hoch und weit springen. Die normale Sprungreichweite wird pro QS um 50 % erhöht. Pro KR kann der Animist mit 1 Aktion einen Sprungversuch durchführen.",
+        "asp_cost": "4 AsP (Aktivierung) + 2 AsP pro KR",
+        "effective_period": "aufrechterhaltend",
+        "feature": "Verwandlung",
+        "tribal_tradition": {
+            "0": "allgemein"
+        },
+        "growth_factor": "B"
+    },
+    {
+        "_id": "",
+        "name": "Harte Haut",
+        "publication": "Aventurische Magie 3, Seite 16",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "KO"
+        },
+        "effect": "Während der Wirkungsdauer verfügt der Animist über einen magischen RS von 2. Dieser kann mit externen und anderen magischen Rüstungen kombiniert werden, solange die andere Möglichkeit dem nicht widerspricht.*",
+        "asp_cost": "6 AsP",
+        "effective_period": "QS x 2 KR",
+        "feature": "Verwandlung",
+        "tribal_tradition": {
+            "0": "Fjarninger",
+            "1": "Gjalsker",
+            "2": "Trollzacker"
+        },
+        "growth_factor": "B",
+        "annotation": "*) Der Animist verändert sich dabei auch optisch leicht, so könnte ein Fjarninger plötzlich einen leichten Raureif auf seiner Haut aufweisen, ein Trollzacker eine steinerne Haut oder ein Gjalsker ein Tierfell bekommen."
+    },
+    {
+        "_id": "",
+        "name": "Immunität gegen Hitze",
+        "publication": "Aventurische Magie 3, Seite 16",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Der Animist erhält während der Wirkungsdauer eine vollständige Immunität gegen Hitze. Nachteile durch Hitzeregeln (siehe Regelwerk Seite 347) kann er während der Wirkungsdauer vollständig ignorieren. Die Animistenkraft bietet jedoch keinen Schutz vor Feuerschaden.",
+        "asp_cost": "5 AsP",
+        "effective_period": "QS Stunden",
+        "feature": "Heilung",
+        "tribal_tradition": {
+            "0": "Ferkinas",
+            "1": "Mohas"
+        },
+        "growth_factor": "B"
+    },
+    {
+        "_id": "",
+        "name": "Immunität gegen Kälte",
+        "publication": "Aventurische Magie 3, Seite 16",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Der Animist erhält während der Wirkungsdauer eine vollständige Immunität gegen Kälte. Nachteile durch Kälteregeln (siehe Regelwerk Seite 346) kann er während der Wirkungsdauer vollständig ignorieren. Die Animistenkraft bietet jedoch keinen Schutz vor Eisschaden.",
+        "asp_cost": "5 AsP",
+        "effective_period": "QS Stunden",
+        "feature": "Heilung",
+        "tribal_tradition": {
+            "0": "Fjarninger",
+            "1": "Gjalsker",
+            "2": "Nivesen"
+        },
+        "growth_factor": "B"
+    },
+    {
+        "_id": "",
+        "name": "Kampffähigkeiten verbessern",
+        "publication": "Aventurische Magie 3, Seite 16",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "KO"
+        },
+        "effect": "Diese Animistenkraft erlaubt es dem Animisten, vorhandene Kampfsonderfertigkeiten, die eine Erschwernis aufweisen, leichter einzusetzen. Die Erschwernis sinkt während der Wirkungsdauer um QS/2, wird durch diesen Bonus aber niemals zu einer Erleichterung. Der Animist muss diese Animistenkraft nicht auf eine spezielle Kampfsonderfertigkeit festlegen, muss sich aber beim Wirken für eine entscheiden und kann während der Wirkungsdauer die Animistenkraft nicht auf eine weitere Kampfsonderfertigkeit anwenden.",
+        "asp_cost": "2 AsP (Aktivierung) + 1 AsP pro KR",
+        "effective_period": "aufrechterhaltend",
+        "feature": "Heilung",
+        "tribal_tradition": {
+            "0": "allgemein"
+        },
+        "growth_factor": "B"
+    },
+    {
+        "_id": "",
+        "name": "Patronruf",
+        "publication": "Aventurische Magie 3, Seite 16",
+        "test": {
+            "0": "MU",
+            "1": "IN",
+            "2": "CH"
+        },
+        "effect": "Der Animist ruft seinen Patron um Unterstützung an. Es erscheint aus dem Nichts ein Tier, geisterhafte Gestalten oder Stimmen, um sich auf Seite des Animisten zu schlagen. Die Wesenheiten können zwar nicht körperlich eingreifen, aber sie erleichtern Proben auf Einschüchtern für den Animisten um QS/2.",
+        "asp_cost": "4 AsP",
+        "effective_period": "30 KR",
+        "feature": "Sphären",
+        "tribal_tradition": {
+            "0": "allgemein"
+        },
+        "growth_factor": "A"
     }
 ]

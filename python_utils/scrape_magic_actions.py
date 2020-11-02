@@ -188,8 +188,12 @@ for action in magic_actions:
             name = div.findAll("h1")[0].text
             texts = div.findAll("p")
 
+            if "support@ulisses-spiele.de" in publication_block:
+                publication_block = ""
+
             json_data = {
                 "_id": "",
+                "name": name,
                 "publication": publication_block
             }
 
