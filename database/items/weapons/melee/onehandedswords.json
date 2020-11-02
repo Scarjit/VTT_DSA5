@@ -20,7 +20,7 @@
     {
         "_id": "",
         "name": "Barbarenschwert",
-        "damage": "",
+        "damage": "1W6+5",
         "primary_attribute": {
             "0": "",
             "1": ""
