@@ -14,5 +14,5 @@ for url in url_list:
     else:
         soup = BeautifulSoup(r.data)
         div = soup.findAll("div", {"class": "ce_text"})[0]
-        name = div.findAll("h1")[0]
+        name = div.findAll("h1")[0].text
         print(name)
