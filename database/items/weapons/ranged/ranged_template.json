@@ -1,0 +1,29 @@
+[
+{
+    "_id": "",
+    "name": "",
+    "combat_technique": "",
+    "damage": "",
+    "primary_attribute": {
+        "0": "",
+        "1": ""
+    },
+    "damage_threshold": 0,
+    "at_mod": 0,
+    "pa_mod": 0,
+    "range": {
+        "short": 0,
+        "medium": 0,
+        "long": 0
+    },
+    "weight": 0,
+    "length": 0,
+    "cost": 0,
+    "complexity": {
+        "tier": "",
+        "ap": 0
+    },
+    "advantage": "",
+    "disadvantage": ""
+}
+]
