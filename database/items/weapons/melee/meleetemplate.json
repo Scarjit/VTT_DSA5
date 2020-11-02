@@ -20,6 +20,8 @@
         "cost": 0,
         "advantage": "",
         "disadvantage": "",
-        "publication": ""
+        "publication": [
+            ""
+        ]
     }
 ]
