@@ -2,7 +2,6 @@
     {
         "_id": "",
         "name": "",
-        "combat_technique": "",
         "damage": "",
         "primary_attribute": {
             "0": "",
@@ -11,6 +10,10 @@
         "damage_threshold": 0,
         "at_mod": 0,
         "pa_mod": 0,
+        "complexity": {
+            "tier": "",
+            "ap": 0
+        },
         "range": "",
         "weight": 0,
         "length": 0,
