@@ -1,6 +1,7 @@
 import json
 import pathlib
 import pprint
+
 INPUT_DATABASE_FOLDER = "../database"
 
 
@@ -21,14 +22,12 @@ def read_existing_entries(input_databse):
     print(files)
     for f in files:
         try:
-            with open("/".join(f.parts),encoding="utf-8") as in_file:
-                r_dict[f.name] = json.load(in_file)
+            with open("/".join(f.parts), encoding="utf-8") as in_file:
+                r_dict[f.parts] = json.load(in_file)
         except Exception as _e:
             print(f"can not open {f.name}, due to error: {_e}")
 
     pprint.pprint(r_dict)
-
-
 
     pass
 
