@@ -22,17 +22,17 @@
         "name": "Barbarenschwert",
         "damage": "1W6+5",
         "primary_attribute": {
-            "0": "",
-            "1": ""
+            "0": "GE",
+            "1": "KK"
         },
-        "damage_threshold": 0,
-        "at_mod": 0,
-        "pa_mod": 0,
-        "range": "",
-        "weight": 0,
-        "length": 0,
-        "cost": 0,
-        "advantage": "",
-        "disadvantage": ""
+        "damage_threshold": 15,
+        "at_mod": -1,
+        "pa_mod": -1,
+        "range": "mittel",
+        "weight": 1.5,
+        "length": 90,
+        "cost": 140,
+        "advantage": null,
+        "disadvantage": null
     }
     ]
