@@ -1,0 +1,18 @@
+[package]
+name = "ulisses_scraper"
+version = "0.1.0"
+authors = ["Scarjit <ferdinand.linnenberg@aol.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.59"
+
+[dependencies.reqwest]
+version = "0.10.8"
+features = ["blocking"]
+
+[dependencies.serde]
+version = "1.0.117"
+features = ["derive"]
