@@ -1,0 +1,16 @@
+{
+    "_id": "",
+    "name": "",
+    "combat_technique": "",
+    "damage": "",
+    "leading_attrib": {
+        0:
+    },
+    "dmg_threshold": 0,
+    "at_mod": 0,
+    "pa_mod": 0,
+    "range": "",
+    "weight": 0,
+    "length": 0,
+    "cost": 0
+}
