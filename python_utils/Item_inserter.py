@@ -1,11 +1,18 @@
 import json
 import pathlib
 import pprint
+from pprint import pprint as ppprint
 
 INPUT_DATABASE_FOLDER = "../database"
 
 
 def read_existing_entries(input_databse):
+    """
+    reads all subdirs from dir and returns the continjing json files and returns them as dictionary, with the key being
+    the file path
+    :param input_databse:
+    :return: dict
+    """
     db_root = pathlib.Path(input_databse)
 
     def get_files_from_all_subdirs(directory: pathlib.Path):
@@ -26,13 +33,18 @@ def read_existing_entries(input_databse):
                 r_dict[f.parts] = json.load(in_file)
         except Exception as _e:
             print(f"can not open {f.name}, due to error: {_e}")
-
-    pprint.pprint(r_dict)
-
-    pass
+    return r_dict
 
 
 if __name__ == '__main__':
-    print(read_existing_entries(INPUT_DATABASE_FOLDER + "/items"))
+    existing_values = read_existing_entries(INPUT_DATABASE_FOLDER + "/items")
+    templates = {}
+    entries = {}
 
-    pass
+    for key in existing_values.keys():
+        if "_template" in key[-1]:
+            templates[key[:-1]] = existing_values[key]
+        else:
+            entries[key] = existing_values[key]
+
+
