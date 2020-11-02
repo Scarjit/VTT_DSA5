@@ -1,3 +1,4 @@
+# coding: utf-8
 import json
 import pathlib
 import pprint
@@ -43,8 +44,8 @@ if __name__ == '__main__':
 
     for key in existing_values.keys():
         if "_template" in key[-1]:
-            templates[key[:-1]] = existing_values[key]
+            templates[key[:-1]] = existing_values[key][0]
         else:
             entries[key] = existing_values[key]
-
+    ppprint(entries.keys())
 
