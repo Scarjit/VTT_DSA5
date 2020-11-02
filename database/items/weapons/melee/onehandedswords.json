@@ -12,15 +12,15 @@
         "at_mod": -1,
         "pa_mod": -1,
         "complexity": {
-            "tier": "",
+            "tier": "einfach",
             "ap": 0
         },       
         "range": "mittel",
         "weight": 1.5,
         "length": 90,
         "cost": 140,
-        "advantage": null,
-        "disadvantage": null,
+        "advantage": " Die Probe auf Einschüchtern (Drohung) bei der Sonderfertigkeit Drohgebärden (siehe Aventurisches Kompendium Seite 105) ist um 1 erleichtert. Das Manöver Schildspalter lässt sich mit dem Barbarenschwert durchführen, auch wenn die Kampftechnik Schwerter dies eigentlich nicht gestattet.        ",
+        "disadvantage": "Verfügen zwei Kämpfer über den gleichen INI-Wert, schlägt der Träger eines Barbarenschwerts daher immer zuletzt zu. Führt der Gegner ebenfalls ein Barbarenschwert, kommen die normalen Regeln zur Reihenfolge des Handelns (siehe Regelwerk Seite 227) zum Tragen. Nach einem bestätigten Patzer bei einer Attacke erhält der Träger zusätzlich 1 Stufe Betäubung.",
         "publication": [
             "DSA5 Grundregelwerk, S.368"
         ]
@@ -37,15 +37,15 @@
         "at_mod": 0,
         "pa_mod": -1,
         "complexity": {
-            "tier": null,
+            "tier": "einfach",
             "ap": 0
         },
         "range": "mittel",
         "weight": 1.75,
         "length": 75,
         "cost": 120,
-        "advantage": null,
-        "disadvantage": null,
+        "advantage": "In beengter Umgebung erleidet der Träger eines Entermessers nur Abzüge von –2 auf AT und PA.",
+        "disadvantage": "Paraden gegen Zweihandwaffen sind mit dem Entermesser um 1 erschwert.",
         "publication": "DSA5 Grundregelwerk, S.368"
     },
     {
@@ -60,13 +60,88 @@
         "at_mod": 0,
         "pa_mod": -1,
         "complexity": {
-            "tier": null,
+            "tier": "einfach",
             "ap": 0
         },
         "range": "mittel",
         "weight": 0.75,
         "length": 70,
         "cost": 100,
+        "advantage": "Mit einem Haumesser können auch die Manöver des Talents Hiebwaffen angewendet werden. Dabei kommt weiterhin das Talent Schwerter zur Anwendung.",
+        "disadvantage": "Das Haumesser kann nicht zweihändig geführt werden (siehe Regelwerk Seite 266).",
+        "publication": [
+            "DSA5 Grundregelwerk, S.368"
+        ]
+    },
+    {
+        "_id": "",
+        "name": "Khunchomer",
+        "damage": "1W6+4",
+        "primary_attribute": {
+            "0": "GE",
+            "1": "KK"
+        },
+        "damage_threshold": 15,
+        "at_mod": 0,
+        "pa_mod": 0,
+        "complexity": {
+            "tier": "einfach",
+            "ap": 0
+        },
+        "range": "mittel",
+        "weight": 1.25,
+        "length": 80,
+        "cost": 210,
+        "advantage": "Setzt der Träger eines Khunchomers das Manöver Klingensturm (siehe Aventurisches Kompendium Seite 154) ein, sinkt die Erschwernis auf die beiden Attacken um jeweils 1.",
+        "disadvantage": "Gegen Rüstungen mit RS 5 oder höher richtet der Khunchomer –1 TP an.",
+        "publication": [
+            "DSA5 Grundregelwerk, S.368"
+        ]
+    },
+    {
+        "_id": "",
+        "name": "Kurzschwert",
+        "damage": "1W6+2",
+        "primary_attribute": {
+            "0": "GE",
+            "1": "KK"
+        },
+        "damage_threshold": 15,
+        "at_mod": 0,
+        "pa_mod": 0,
+        "complexity": {
+            "tier": "einfach",
+            "ap": 0
+        },
+        "range": "mittel",
+        "weight": 0.75,
+        "length": 60,
+        "cost": 140,
+        "advantage": "Mit einem Kurzschwert ist das Manöver Unterlaufen (siehe Aventurisches Kompendium Seite 155) zusammen mit dem Manöver Wuchtschlag ausführbar.",
+        "disadvantage": "Mit einem Kurzschwert sind Paraden gegen Zweihandhiebwaffen und Zweihandschwerter um 1 erschwert.",
+        "publication": [
+            "DSA5 Grundregelwerk, S.368"
+        ]
+    },
+    {
+        "_id": "",
+        "name": "Langschwert",
+        "damage": "1W6+4",
+        "primary_attribute": {
+            "0": "GE",
+            "1": "KK"
+        },
+        "damage_threshold": 15,
+        "at_mod": 0,
+        "pa_mod": 0,
+        "complexity": {
+            "tier": "einfach",
+            "ap": 0
+        },
+        "range": "mittel",
+        "weight": 1,
+        "length": 100,
+        "cost": 200,
         "advantage": null,
         "disadvantage": null,
         "publication": [
@@ -75,27 +150,80 @@
     },
     {
         "_id": "",
-        "name": "",
-        "damage": "",
+        "name": "Robbentöter",
+        "damage": "1W6+4",
         "primary_attribute": {
-            "0": "",
-            "1": ""
+            "0": "GE",
+            "1": "KK"
         },
-        "damage_threshold": 0,
+        "damage_threshold": 15,
         "at_mod": 0,
         "pa_mod": 0,
         "complexity": {
-            "tier": "",
+            "tier": "komplex",
+            "ap": 3
+        },
+        "range": "mittel",
+        "weight": 1,
+        "length": 90,
+        "cost": 200,
+        "advantage": "Im Kampf gegen Tiere der Größenkategorie mittel und groß erhält der Held einen Bonus von +1 TP.",
+        "disadvantage": "Wird der Robbentöter von Nichtelfen geführt, erhält er einen Malus von –1 auf AT, PA und TP. Das Manöver Finte ist um 1 erschwert.",
+        "annotation": "Um den Robbentöter bei der Heldenerschaffung zu erwerben, muss der Held der firnelfischen Kultur angehören.",        
+        "publication": [
+            "DSA5 Grundregelwerk, S.368"
+        ]
+    },
+    {
+        "_id": "",
+        "name": "Säbel",
+        "damage": "1W6+3",
+        "primary_attribute": {
+            "0": "GE",
+            "1": "KK"
+        },
+        "damage_threshold": 15,
+        "at_mod": 0,
+        "pa_mod": 0,
+        "complexity": {
+            "tier": "einfach",
             "ap": 0
         },
-        "range": "",
-        "weight": 0,
-        "length": 0,
-        "cost": 0,
-        "advantage": "",
-        "disadvantage": "",
+        "range": "mittel",
+        "weight": 0.75,
+        "length": 90,
+        "cost": 180,
+        "advantage": "Von einem Reittier aus geführt, bekommt der Träger des Säbels einen Bonus von +1 TP.",
+        "disadvantage": "Gegen Rüstungen mit RS 4 oder höher richtet die Waffe –1 TP an.",
+        "annotation": null,
         "publication": [
-            ""
+            "DSA5 Grundregelwerk, S.368"
+        ]
+    },
+    {
+        "_id": "",
+        "name": "Sklaventod",
+        "damage": "1W6+4",
+        "primary_attribute": {
+            "0": "GE",
+            "1": "KK"
+        },
+        "damage_threshold": 15,
+        "at_mod": 0,
+        "pa_mod": 0,
+        "complexity": {
+            "tier": "einfach",
+            "ap": 0
+        },
+        "range": "mittel",
+        "weight": 1.25,
+        "length": 90,
+        "cost": 210,
+        "advantage": "Gegen ungerüstete Humanoide mit RS 0 richtet der Sklaventod +1 TP an.",
+        "disadvantage": "Wurde mit dem Sklaventod erfolgreich pariert, würfle mit 1W6. Bei einer 6 hat sich die Waffe des Gegners kurz verhakt, was zu einer Erschwernis von 1 auf AT für den Helden in der nächsten KR führt. Diese Regel gilt nicht für Angriffe von Unbewaffneten.",
+        "annotation": null,
+        "publication": [
+            "DSA5 Grundregelwerk, S.368"
         ]
     },
     ]
