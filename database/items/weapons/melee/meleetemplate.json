@@ -1,0 +1,40 @@
+[
+    {
+        "_id": "",
+        "name": "",
+        "combat_technique": "",
+        "damage": "",
+        "primary_attribute": {
+            "0": "",
+            "1": ""
+        },
+        "damage_threshold": 0,
+        "at_mod": 0,
+        "pa_mod": 0,
+        "range": "",
+        "weight": 0,
+        "length": 0,
+        "cost": 0,
+        "advantage": "",
+        "disadvantage": ""
+    },
+    {
+        "_id": "",
+        "name": "",
+        "combat_technique": "",
+        "damage": "",
+        "primary_attribute": {
+            "0": "",
+            "1": ""
+        },
+        "damage_threshold": 0,
+        "at_mod": 0,
+        "pa_mod": 0,
+        "range": "",
+        "weight": 0,
+        "length": 0,
+        "cost": 0,
+        "advantage": "",
+        "disadvantage": ""
+    }
+    ]
