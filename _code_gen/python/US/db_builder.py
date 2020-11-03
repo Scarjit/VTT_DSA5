@@ -20,24 +20,37 @@ entry_points = [
 ]
 
 
-def build_cache(ep: Page):
-    thrds = []
-    for links in ep.links:
-        page = Page(links)
-        tx = threading.Thread(target=build_cache, args=(page,), daemon=True)
-        thrds.append(tx)
-        tx.start()
-    for tx in thrds:
-        tx.join()
+def build_cache(ep: Page, use_threadding: bool):
+    if use_threadding:
+        thrds = []
+        for links in ep.links:
+            page = Page(links)
+            tx = threading.Thread(target=build_cache, args=(page, use_threadding,), daemon=True)
+            thrds.append(tx)
+            tx.start()
+        for tx in thrds:
+            tx.join()
+    else:
+        for links in ep.links:
+            page = Page(links)
+            build_cache(page, use_threadding)
 
 
-if __name__ == "__main__":
+def build_cache_from_eps():
     threads = []
     for entry_point_url in entry_points:
         entry_page = Page(entry_point_url)
-        t = threading.Thread(target=build_cache, args=(entry_page,), daemon=True)
+        t = threading.Thread(target=build_cache, args=(entry_page, False,), daemon=True)
         threads.append(t)
         t.start()
 
     for t in threads:
         t.join()
+
+def parse_eps():
+    for entry_point_url in entry_points:
+        entry_page = Page(entry_point_url)
+        entry_page.read_self()
+
+if __name__ == "__main__":
+    parse_eps()
