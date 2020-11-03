@@ -53,6 +53,7 @@ class Page:
                 exit()
             cleaned = r.data.decode('utf-8', 'ignore')
             with open(filename, 'w', encoding='utf-8') as f:
+                print("\t->{}".format(filename))
                 f.write(cleaned)
             self.data = cleaned
 

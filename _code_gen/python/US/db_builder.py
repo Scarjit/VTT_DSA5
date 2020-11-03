@@ -1,3 +1,5 @@
+import threading
+
 from US.Classes.RulePage import RulePage
 from US.Classes.Page import Page
 
@@ -19,13 +21,23 @@ entry_points = [
 
 
 def build_cache(ep: Page):
+    thrds = []
     for links in ep.links:
-        print("Scanning: {}".format(links))
         page = Page(links)
-        build_cache(page)
+        tx = threading.Thread(target=build_cache, args=(page,), daemon=True)
+        thrds.append(tx)
+        tx.start()
+    for tx in thrds:
+        tx.join()
 
 
 if __name__ == "__main__":
+    threads = []
     for entry_point_url in entry_points:
         entry_page = Page(entry_point_url)
-        build_cache(entry_page)
+        t = threading.Thread(target=build_cache, args=(entry_page,), daemon=True)
+        threads.append(t)
+        t.start()
+
+    for t in threads:
+        t.join()
