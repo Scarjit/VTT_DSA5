@@ -6,4 +6,5 @@ TODO: Implement me :)
 
 
 class LinkPage(Page):
-    pass
+    def __init__(self, page: Page):
+        pass

@@ -8,4 +8,5 @@ TODO: Implement me :)
 
 
 class RulePage(Page):
-    pass
+    def __init__(self, page: Page):
+        pass
