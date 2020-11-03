@@ -16,3 +16,4 @@ class LinkPage(Page):
         self.sub_pages = page.sub_pages
         self.path = page.path
         self.data = page.data
+        print("New LinkPage: {}".format(self.url))

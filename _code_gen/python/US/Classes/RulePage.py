@@ -16,3 +16,4 @@ class RulePage(Page):
         self.sub_pages = page.sub_pages
         self.path = page.path
         self.data = page.data
+        print("New RulePage: {}".format(self.url))
