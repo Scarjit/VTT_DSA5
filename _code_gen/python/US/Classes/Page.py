@@ -49,19 +49,17 @@ class Page:
             from . import RulePage
         for sub_page in self.links:
             sub = Page(sub_page)
-            print("SubURL: {}".format(sub.url))
             switcher = {
                 "LinkPage": LinkPage.LinkPage,
                 "CombinedPage": CombinedPage.CombinedPage,
                 "RulePage": RulePage.RulePage,
             }
-            sub_type = sub.get_page_type()
-            print(sub_type)
             sub_class = switcher.get(
-                    sub_type,
+                    sub.get_page_type(),
                     Exception(f"type not in dictionary", f"{sub.get_page_type()}")
                 )
-            print(sub_class)
+            if type(sub_class) == "str":
+                raise Exception(sub_class)
             self.sub_pages.append(
                 sub_class(sub)
             )
