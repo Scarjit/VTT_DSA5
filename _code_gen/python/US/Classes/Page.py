@@ -26,8 +26,9 @@ class Page:
         head_div = self.soup.findAll("div", {"class": "col-md-12"})[1].findAll("li")
         self.path = []
         for div in head_div[1:]:
-            if (("class" in div.attrs and not "sep" in div.attrs['class'])
-                    or not "class" in div.attrs):
+            div_dict = div.attrs
+            if (("class" in div_dict and not "sep" in div_dict['class'])
+                    or not "class" in div_dict):
                 self.path.append(div.text)
 
     def scan_links(self):
