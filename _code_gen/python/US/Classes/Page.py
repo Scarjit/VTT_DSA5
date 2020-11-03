@@ -27,8 +27,8 @@ class Page:
         self.path = []
         for div in head_div[1:]:
             div_dict = div.attrs
-            if (("class" in div_dict and not "sep" in div_dict['class'])
-                    or not "class" in div_dict):
+            if (("class" in div_dict and "sep" not in div_dict['class'])
+                    or "class" not in div_dict):
                 self.path.append(div.text)
 
     def scan_links(self):
