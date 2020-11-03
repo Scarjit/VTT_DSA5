@@ -12,13 +12,11 @@ class Page:
         self.url = url
         self.path = []
         self.links = []
-        self.contains_rules = False
         self.data = None
         self.do_cached_get_request()
         self.soup = BeautifulSoup(self.data, features="html.parser")
         self.scan_path()
         self.scan_links()
-        self.scan_contains_rules()
         self.sub_pages = []
         self.parse_sub_pages()
 
@@ -35,9 +33,6 @@ class Page:
         self.links = []
         for ah in a:
             self.links.append("https://ulisses-regelwiki.de/{}".format(ah.attrs["href"]))
-
-    def scan_contains_rules(self):
-        self.contains_rules = len(self.soup.findAll("div", {"class": "mod_acticle"})) > 0
 
     def parse_sub_pages(self):
         try:
@@ -101,7 +96,6 @@ class Page:
             "URL:\t{}".format(self.url),
             "Path:\t{}".format(self.path),
             "Links:\t{}".format(self.links),
-            "Contains Rules:\t{}".format(self.contains_rules)
         ]
         return '\n'.join(xstr)
 
@@ -110,5 +104,4 @@ class Page:
             "url": self.url,
             "path": self.path,
             "links": self.links,
-            "contains_rules": self.contains_rules
         })
