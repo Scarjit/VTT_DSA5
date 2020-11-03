@@ -27,6 +27,6 @@
   "url": "https://github.com/Scarjit/VTT_DSA5",
   "socket": true,
   "manifest": "https://raw.githubusercontent.com/Scarjit/VTT_DSA5/main/system.json",
-  "download": "",
+  "download": "https://github.com/Scarjit/VTT_DSA5/archive/main.zip",
   "license": "LICENSE.txt"
 }
