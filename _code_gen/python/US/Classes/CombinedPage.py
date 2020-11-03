@@ -6,6 +6,7 @@ except ImportError:
 TODO: Implement me :)
 """
 
+
 class CombinedPage(Page):
     def __init__(self, page: Page):
         self.url = page.url
@@ -15,3 +16,4 @@ class CombinedPage(Page):
         self.sub_pages = page.sub_pages
         self.path = page.path
         self.data = page.data
+        print("New CombinedPage: {}".format(self.url))
