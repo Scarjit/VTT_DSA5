@@ -4,7 +4,7 @@ try:
 except ImportError:
     from Classes.Page import Page
 
-entry_points = [
+_ENTRY_POINTS = [
     "https://ulisses-regelwiki.de/index.php/regeln.html",
     "https://ulisses-regelwiki.de/index.php/spezies.html",
     "https://ulisses-regelwiki.de/index.php/kulturen.html",
@@ -39,7 +39,7 @@ def build_cache(ep: Page, use_threadding: bool):
 
 def build_cache_from_eps():
     threads = []
-    for entry_point_url in entry_points:
+    for entry_point_url in _ENTRY_POINTS:
         entry_page = Page(entry_point_url)
         t = threading.Thread(target=build_cache, args=(entry_page, False,), daemon=True)
         threads.append(t)
@@ -49,7 +49,8 @@ def build_cache_from_eps():
         t.join()
 
 def parse_eps():
-    for entry_point_url in entry_points:
+
+    for entry_point_url in _ENTRY_POINTS:
         entry_page = Page(entry_point_url)
 
 if __name__ == "__main__":
