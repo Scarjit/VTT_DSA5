@@ -50,11 +50,22 @@ def build_cache_from_eps():
         t.join()
 
 
-def parse_eps():
+def parse_eps(ep: str):
+    entry_page = Page(ep)
+    return entry_page
 
+
+def parse_eps_threaded():
+    threads = []
     for entry_point_url in _ENTRY_POINTS:
         entry_page = Page(entry_point_url)
+        t = threading.Thread(target=parse_eps, args=(entry_page,), daemon=True)
+        threads.append(t)
+        t.start()
+
+    for t in threads:
+        t.join()
 
 
 if __name__ == "__main__":
-    parse_eps()
+    parse_eps_threaded()
