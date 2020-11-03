@@ -3,6 +3,9 @@ import urllib3
 import json
 import hashlib
 import os
+from US.Classes import LinkPage
+from US.Classes import CombinedPage
+from US.Classes import RulePage
 
 http_pool = urllib3.PoolManager()
 
@@ -39,9 +42,7 @@ class Page:
         self.contains_rules = len(self.soup.findAll("div", {"class": "mod_acticle"})) > 0
 
     def parse_sub_pages(self):
-        from US.Classes import LinkPage
-        from US.Classes import CombinedPage
-        from US.Classes import RulePage
+
         for sub_page in self.links:
             sub = Page(sub_page)
             switcher = {
@@ -51,7 +52,7 @@ class Page:
             }
             self.sub_pages.append(
                 switcher.get(
-                    sub.get_page_type(),
+                    sub.get_page_type() ,
                     Exception(f"type not in dictionary", f"{sub.get_page_type()}")
                 )
             )
@@ -65,12 +66,13 @@ class Page:
         else:
             return "LinkPage"
 
+
     def do_cached_get_request(self):
         s = hashlib.sha3_512()
         s.update(self.url.encode('utf-8'))
         filename = "cache\\{}.html".format(s.hexdigest())
         if os.path.isfile(filename):
-            # print("{} from cache".format(self.url))
+            #print("{} from cache".format(self.url))
             with open(filename, 'r', encoding='utf-8') as f:
                 data = f.read()
                 self.data = data
@@ -103,3 +105,4 @@ class Page:
             "links": self.links,
             "contains_rules": self.contains_rules
         })
+
