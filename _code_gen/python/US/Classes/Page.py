@@ -54,7 +54,7 @@ class Page:
                 switcher.get(
                     sub.get_page_type(),
                     Exception(f"type not in dictionary", f"{sub.get_page_type()}")
-                )
+                )(sub)
             )
 
     def get_page_type(self) -> str:
