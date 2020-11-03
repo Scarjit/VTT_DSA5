@@ -1,1 +1,1 @@
-from .Classes import Page, RulePage
+from .Classes import *

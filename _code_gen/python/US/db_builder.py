@@ -1,5 +1,6 @@
 import threading
 import time
+
 try:
     from US.Classes.Page import Page
 except ImportError:
@@ -54,7 +55,6 @@ def build_cache_from_eps():
 
 
 def parse_eps():
-
     for entry_point_url in _ENTRY_POINTS:
         entry_page = Page(entry_point_url)
 
