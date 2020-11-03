@@ -1,6 +1,8 @@
 import threading
-
-from US.Classes.Page import Page
+try:
+    from US.Classes.Page import Page
+except ImportError:
+    from Classes.Page import Page
 
 entry_points = [
     "https://ulisses-regelwiki.de/index.php/regeln.html",
