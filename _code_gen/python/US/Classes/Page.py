@@ -26,7 +26,8 @@ class Page:
         head_div = self.soup.findAll("div", {"class": "col-md-12"})[1].findAll("li")
         self.path = []
         for div in head_div[1:]:
-            if ("class" in div.attrs and not "sep" in div.attrs['class']) or not "class" in div.attrs:
+            if (("class" in div.attrs and not "sep" in div.attrs['class'])
+                    or not "class" in div.attrs):
                 self.path.append(div.text)
 
     def scan_links(self):
@@ -55,9 +56,9 @@ class Page:
                 "RulePage": RulePage.RulePage,
             }
             sub_class = switcher.get(
-                    sub.get_page_type(),
-                    Exception(f"type not in dictionary", f"{sub.get_page_type()}")
-                )
+                sub.get_page_type(),
+                Exception(f"type not in dictionary", f"{sub.get_page_type()}")
+            )
             if type(sub_class) == "str":
                 raise Exception(sub_class)
             self.sub_pages.append(

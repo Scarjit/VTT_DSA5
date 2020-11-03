@@ -22,20 +22,20 @@ _ENTRY_POINTS = [
 ]
 
 
-def build_cache(ep: Page, use_threadding: bool):
-    if use_threadding:
-        thrds = []
+def build_cache(ep: Page, use_threading: bool):
+    if use_threading:
+        threads = []
         for links in ep.links:
             page = Page(links)
-            tx = threading.Thread(target=build_cache, args=(page, use_threadding,), daemon=True)
-            thrds.append(tx)
+            tx = threading.Thread(target=build_cache, args=(page, use_threading,), daemon=True)
+            threads.append(tx)
             tx.start()
-        for tx in thrds:
+        for tx in threads:
             tx.join()
     else:
         for links in ep.links:
             page = Page(links)
-            build_cache(page, use_threadding)
+            build_cache(page, use_threading)
 
 
 def build_cache_from_eps():
