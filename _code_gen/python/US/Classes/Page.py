@@ -3,9 +3,6 @@ import urllib3
 import json
 import hashlib
 import os
-from US.Classes import LinkPage
-from US.Classes import CombinedPage
-from US.Classes import RulePage
 
 http_pool = urllib3.PoolManager()
 
@@ -42,7 +39,9 @@ class Page:
         self.contains_rules = len(self.soup.findAll("div", {"class": "mod_acticle"})) > 0
 
     def parse_sub_pages(self):
-
+        from US.Classes import LinkPage
+        from US.Classes import CombinedPage
+        from US.Classes import RulePage
         for sub_page in self.links:
             sub = Page(sub_page)
             switcher = {
