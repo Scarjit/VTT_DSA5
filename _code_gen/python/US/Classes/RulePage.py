@@ -1,7 +1,7 @@
 try:
     from US.Classes.Page import Page
 
-except:
+except ImportError:
     from .Page import Page 
 """
 TODO: Implement me :)
