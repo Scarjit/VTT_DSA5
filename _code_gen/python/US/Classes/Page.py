@@ -5,6 +5,7 @@ import hashlib
 import os
 from typing import Iterator
 
+
 http_pool = urllib3.PoolManager()
 PAGE_TYPE = {"culture_page", "rule_page"}
 class Page:
@@ -19,6 +20,8 @@ class Page:
         self.scan_path()
         self.scan_links()
         self.scan_contains_rules()
+        self.sub_pages = []
+        self.parse_sub_pages()
 
     def scan_path(self):
         head_div = self.soup.findAll("div", {"class": "col-md-12"})[1].findAll("li")
@@ -35,6 +38,35 @@ class Page:
 
     def scan_contains_rules(self):
         self.contains_rules = len(self.soup.findAll("div", {"class": "mod_acticle"})) > 0
+
+    def parse_sub_pages(self):
+
+        for sub_page in self.links:
+            sub = Page(sub_page)
+            from US.Classes import LinkPage
+            from US.Classes import CombinedPage
+            from US.Classes import RulePage
+            switcher = {
+                "LinkPage": LinkPage,
+                "CombinedPage": CombinedPage,
+                "RulePage": RulePage,
+            }
+            self.sub_pages.append(
+                switcher.get(
+                    sub.get_page_type(),
+                    Exception(f"type not in dictionary", f"{sub.get_page_type()}")
+                )
+            )
+
+    def get_page_type(self) -> str:
+        if len(self.soup.findAll("div", {"class": "mod_article"})) > 0:
+            if len(self.soup.findAll("h1", {"class": "ulStrikeOutH1"})):
+                "CombinedPage"
+            else:
+                "RulePage"
+        else:
+            return "LinkPage"
+
 
     def do_cached_get_request(self):
         s = hashlib.sha3_512()
@@ -75,5 +107,3 @@ class Page:
             "contains_rules": self.contains_rules
         })
 
-    def read_self(self):
-        pass
