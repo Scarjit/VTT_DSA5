@@ -5,8 +5,7 @@ try:
 except ImportError:
     from Classes.Page import Page
 
-_ENTRY_POINTS = [
-    "https://ulisses-regelwiki.de/index.php/WdV18.html",
+_e_p = [
     "https://ulisses-regelwiki.de/index.php/regeln.html",
     "https://ulisses-regelwiki.de/index.php/spezies.html",
     "https://ulisses-regelwiki.de/index.php/kulturen.html",
@@ -18,8 +17,11 @@ _ENTRY_POINTS = [
     "https://ulisses-regelwiki.de/index.php/ruestkammer.html",
     "https://ulisses-regelwiki.de/index.php/bestiarium.html",
     "https://ulisses-regelwiki.de/index.php/herbarium.html",
-    "https://ulisses-regelwiki.de/index.php/GifteundKrankheiten.html"
+    "https://ulisses-regelwiki.de/index.php/GifteundKrankheiten.html",
+    "https://ulisses-regelwiki.de/index.php/WdV18.html"
 ]
+_ENTRY_POINTS = _e_p[:-1]
+_ENTRY_POINTS.append(_e_p[-1])
 
 
 def build_cache(ep: Page, use_threading: bool):
