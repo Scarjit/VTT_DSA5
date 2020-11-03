@@ -1,6 +1,5 @@
 import threading
 
-from US.Classes.RulePage import RulePage
 from US.Classes.Page import Page
 
 entry_points = [
@@ -50,7 +49,6 @@ def build_cache_from_eps():
 def parse_eps():
     for entry_point_url in entry_points:
         entry_page = Page(entry_point_url)
-        entry_page.read_self()
 
 if __name__ == "__main__":
     parse_eps()
