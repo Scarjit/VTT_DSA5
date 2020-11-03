@@ -20,8 +20,9 @@ _e_p = [
     "https://ulisses-regelwiki.de/index.php/GifteundKrankheiten.html",
     "https://ulisses-regelwiki.de/index.php/WdV18.html"
 ]
-_ENTRY_POINTS = _e_p[:-1]
-_ENTRY_POINTS.append(_e_p[-1])
+
+_ENTRY_POINTS = [_e_p[-1]]
+_ENTRY_POINTS.extend(_e_p[:-1])
 
 
 def build_cache(ep: Page, use_threading: bool):
