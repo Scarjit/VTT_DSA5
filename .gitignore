@@ -1,6 +1,5 @@
 **/.idea
 **/Cargo.lock
-**/cache
 __pycache__
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,webstorm,clion,rust,python
