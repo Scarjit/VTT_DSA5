@@ -1,8 +1,8 @@
 try:
-    from US.Classes.Page import Page.Page as Page
+    from US.Classes.Page import Page
 
 except:
-    from . import Page.Page as Page
+    from .Page import Page
 """
 TODO: Implement me :)
 """

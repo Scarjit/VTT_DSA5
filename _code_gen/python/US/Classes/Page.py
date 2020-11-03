@@ -53,7 +53,7 @@ class Page:
             }
             self.sub_pages.append(
                 switcher.get(
-                    sub.get_page_type(),
+                    sub.get_page_type() ,
                     Exception(f"type not in dictionary", f"{sub.get_page_type()}")
                 )
             )
