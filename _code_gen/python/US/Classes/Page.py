@@ -3,11 +3,11 @@ import urllib3
 import json
 import hashlib
 import os
+from typing import Iterator
 
 
 http_pool = urllib3.PoolManager()
-
-
+PAGE_TYPE = {"culture_page", "rule_page"}
 class Page:
     def __init__(self, url):
         self.url = url
