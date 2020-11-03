@@ -5,4 +5,5 @@ TODO: Implement me :)
 """
 
 class CombinedPage(Page):
-    pass
+    def __init__(self, page: Page):
+        pass
