@@ -44,24 +44,29 @@ class Page:
         from US.Classes import RulePage
         for sub_page in self.links:
             sub = Page(sub_page)
+            print("SubURL: {}".format(sub.url))
             switcher = {
-                "LinkPage": LinkPage,
-                "CombinedPage": CombinedPage,
-                "RulePage": RulePage,
+                "LinkPage": LinkPage.LinkPage,
+                "CombinedPage": CombinedPage.CombinedPage,
+                "RulePage": RulePage.RulePage,
             }
-            self.sub_pages.append(
-                switcher.get(
-                    sub.get_page_type(),
+            sub_type = sub.get_page_type()
+            print(sub_type)
+            sub_class = switcher.get(
+                    sub_type,
                     Exception(f"type not in dictionary", f"{sub.get_page_type()}")
-                )(sub)
+                )
+            print(sub_class)
+            self.sub_pages.append(
+                sub_class(sub)
             )
 
     def get_page_type(self) -> str:
         if len(self.soup.findAll("div", {"class": "mod_article"})) > 0:
             if len(self.soup.findAll("h1", {"class": "ulStrikeOutH1"})):
-                "CombinedPage"
+                return "CombinedPage"
             else:
-                "RulePage"
+                return "RulePage"
         else:
             return "LinkPage"
 
