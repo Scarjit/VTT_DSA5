@@ -2,13 +2,14 @@
   "name": "dark-eye-5",
   "title": "DSA 5 / TDE 5e",
   "description": "The Dark Eye 5th Edition",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.5",
   "templateVersion": 2,
   "author": "Scarjit",
   "scripts": [],
   "esmodules": [
+    "script/common/hooks.js"
   ],
   "styles": [
   ],
