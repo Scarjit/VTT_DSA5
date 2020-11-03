@@ -41,7 +41,7 @@ class Page:
         s.update(self.url.encode('utf-8'))
         filename = "cache\\{}.html".format(s.hexdigest())
         if os.path.isfile(filename):
-            print("{} from cache".format(self.url))
+            #print("{} from cache".format(self.url))
             with open(filename, 'r', encoding='utf-8') as f:
                 data = f.read()
                 self.data = data
@@ -74,3 +74,6 @@ class Page:
             "links": self.links,
             "contains_rules": self.contains_rules
         })
+
+    def read_self(self):
+        pass
