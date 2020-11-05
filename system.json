@@ -61,7 +61,7 @@
   "secondaryTokenAttribute": null,
   "url": "https://github.com/Scarjit/VTT_DSA5",
   "socket": true,
-  "manifest": "https://raw.githubusercontent.com/Scarjit/VTT_DSA5/main/system.json",
+  "manifest": "https://raw.githubusercontent.com/Scarjit/VTT_DSA5/main/system.json?flush_cache=True",
   "download": "https://github.com/Scarjit/VTT_DSA5/archive/main.zip",
   "license": "LICENSE.txt"
 }
