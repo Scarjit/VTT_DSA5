@@ -72,6 +72,9 @@ class Page:
 
     def do_cached_get_request(self):
         s = hashlib.sha3_512()
+        if type(self.url) != str:
+            print("{} is not a str ({})".format(self.url, type(self.url)))
+            exit()
         s.update(self.url.encode('utf-8'))
         filename = "cache\\{}.html".format(s.hexdigest())
         if os.path.isfile(filename):
