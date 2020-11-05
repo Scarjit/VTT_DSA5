@@ -1,4 +1,4 @@
-.dark-heresy.chat {
+.dark-eye-5.chat {
     color: var(--color-text);
     font-family: var(--font-text);
     font-size: 16px;
@@ -6,7 +6,7 @@
     padding: 5px;
 }
 
-.dark-heresy.chat.item img {
+.dark-eye-5.chat.item img {
     border: 0;
     display: block;
     margin: 0 auto 8px;
@@ -14,7 +14,7 @@
     width: auto;
 }
 
-.dark-heresy.chat h3 {
+.dark-eye-5.chat h3 {
     font-family: var(--font-text);
     font-size: 18px;
     font-weight: bold;
@@ -24,11 +24,11 @@
     border-bottom: 1px solid var(--color-border);
 }
 
-.dark-heresy.chat.item p {
+.dark-eye-5.chat.item p {
     margin: 0 0 4px;
 }
 
-.dark-heresy.chat.item strong {
+.dark-eye-5.chat.item strong {
     font-family: var(--font-text);
     font-weight: bold;
     font-size: 18px;

@@ -1,7 +1,7 @@
 import { commonRoll, combatRoll } from "./roll.js";
 
 export async function prepareCommonRoll(rollData) {
-    const html = await renderTemplate("systems/dark-heresy/template/dialog/common-roll.html", rollData);
+    const html = await renderTemplate("systems/dark-eye-5/template/dialog/common-roll.html", rollData);
     let dialog = new Dialog({
         title: game.i18n.localize(rollData.name),
         content: html,
@@ -31,7 +31,7 @@ export async function prepareCommonRoll(rollData) {
 export async function prepareCombatRoll(rollData) {
     let psyRatingRegex = /PR/gi;
     let psy = (rollData.psy) ? rollData.psy : 0;
-    const html = await renderTemplate("systems/dark-heresy/template/dialog/combat-roll.html", rollData);
+    const html = await renderTemplate("systems/dark-eye-5/template/dialog/combat-roll.html", rollData);
     let dialog = new Dialog({
         title: rollData.name,
         content: html,
@@ -69,7 +69,7 @@ export async function prepareCombatRoll(rollData) {
 
 export async function preparePsychicPowerRoll(rollData) {
     let psyRatingRegex = /PR/gi;
-    const html = await renderTemplate("systems/dark-heresy/template/dialog/psychic-power-roll.html", rollData);
+    const html = await renderTemplate("systems/dark-eye-5/template/dialog/psychic-power-roll.html", rollData);
     let dialog = new Dialog({
         title: rollData.name,
         content: html,

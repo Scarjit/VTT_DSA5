@@ -16,7 +16,7 @@ export async function combatRoll(rollData) {
 }
 
 async function _sendToChat(rollData) {
-    const html = await renderTemplate("systems/dark-heresy/template/chat/roll.html", rollData);
+    const html = await renderTemplate("systems/dark-eye-5/template/chat/roll.html", rollData);
     let chatData = {
         user: game.user._id,
         rollMode: game.settings.get("core", "rollMode"),

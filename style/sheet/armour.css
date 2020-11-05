@@ -1,31 +1,31 @@
-.dark-heresy.armour .notes-editor {
+.dark-eye-5.armour .notes-editor {
     height: 165px;
     max-height: 165px;
 }
 
-.dark-heresy.armour .stats .stats-row .stat.type input {
+.dark-eye-5.armour .stats .stats-row .stat.type input {
     width: 8em;
 }
 
-.dark-heresy.armour .stats .stats-row .stat.max-agility input {
+.dark-eye-5.armour .stats .stats-row .stat.max-agility input {
     width: 4em;
     text-align: center;
 }
 
-.dark-heresy.armour .stats .stats-row .stat.part input {
+.dark-eye-5.armour .stats .stats-row .stat.part input {
     width: 2em;
     text-align: center;
 }
 
-.dark-heresy.armour .stats .stats-row .stat.craftsmanship select {
+.dark-eye-5.armour .stats .stats-row .stat.craftsmanship select {
     width: 8em;
 }
 
-.dark-heresy.armour .stats .stats-row .stat.availability select {
+.dark-eye-5.armour .stats .stats-row .stat.availability select {
     width: 8em;
 }
 
-.dark-heresy.armour .stats .stats-row .stat.weight input {
+.dark-eye-5.armour .stats .stats-row .stat.weight input {
     width: 2em;
     text-align: center;
 }

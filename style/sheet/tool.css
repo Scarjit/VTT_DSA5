@@ -1,26 +1,26 @@
-.dark-heresy.tool .notes-editor {
+.dark-eye-5.tool .notes-editor {
     height: 165px;
     max-height: 165px;
 }
 
-.dark-heresy.tool .stats {
+.dark-eye-5.tool .stats {
     height: 165px;
     align-content: baseline;
 }
 
-.dark-heresy.tool .stats .stats-row .stat.craftsmanship select {
+.dark-eye-5.tool .stats .stats-row .stat.craftsmanship select {
     width: 8em;
 }
 
-.dark-heresy.tool .stats .stats-row .stat.availability select {
+.dark-eye-5.tool .stats .stats-row .stat.availability select {
     width: 8em;
 }
 
-.dark-heresy.tool .stats .stats-row .stat.weight input {
+.dark-eye-5.tool .stats .stats-row .stat.weight input {
     width: 2em;
     text-align: center;
 }
 
-.dark-heresy.tool .stats .stats-row .stat.short-description input {
+.dark-eye-5.tool .stats .stats-row .stat.short-description input {
     width: 31em;
 }

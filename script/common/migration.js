@@ -1,6 +1,6 @@
 export const migrateWorld = async () => {
     const schemaVersion = 1;
-    const worldSchemaVersion = Number(game.settings.get("dark-heresy", "worldSchemaVersion"));
+    const worldSchemaVersion = Number(game.settings.get("dark-eye-5", "worldSchemaVersion"));
     if (worldSchemaVersion !== schemaVersion && game.user.isGM) {
         ui.notifications.info("Upgrading the world, please wait...");
         for (let actor of game.actors.entities) {
@@ -16,7 +16,7 @@ export const migrateWorld = async () => {
         for (let pack of game.packs.filter((p) => p.metadata.package === "world" && ["Actor"].includes(p.metadata.entity))) {
             await migrateCompendium(pack, worldSchemaVersion);
         }
-        game.settings.set("dark-heresy", "worldSchemaVersion", schemaVersion);
+        game.settings.set("dark-eye-5", "worldSchemaVersion", schemaVersion);
         ui.notifications.info("Upgrade complete!");
     }
 };

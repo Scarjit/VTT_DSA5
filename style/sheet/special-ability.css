@@ -1,13 +1,13 @@
-.dark-heresy.special-ability .notes-editor {
+.dark-eye-5.special-ability .notes-editor {
     height: 165px;
     max-height: 165px;
 }
 
-.dark-heresy.special-ability .stats {
+.dark-eye-5.special-ability .stats {
     height: 165px;
     align-content: baseline;
 }
 
-.dark-heresy.special-ability .stats .stats-row .stat.benefit input {
+.dark-eye-5.special-ability .stats .stats-row .stat.benefit input {
     width: 428px;
 }
