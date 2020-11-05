@@ -1,6 +1,6 @@
-.dark-heresy .abilities .talents,
-.dark-heresy .abilities .traits,
-.dark-heresy .abilities .special-abilities {
+.dark-eye-5 .abilities .talents,
+.dark-eye-5 .abilities .traits,
+.dark-eye-5 .abilities .special-abilities {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -8,56 +8,56 @@
     flex-basis: 100%;
 }
 
-.dark-heresy .abilities .talents {
+.dark-eye-5 .abilities .talents {
     margin-top: 0;
 }
 
-.dark-heresy .abilities .talents .item-list .header,
-.dark-heresy .abilities .traits .item-list .header,
-.dark-heresy .abilities .special-abilities .item-list .header {
+.dark-eye-5 .abilities .talents .item-list .header,
+.dark-eye-5 .abilities .traits .item-list .header,
+.dark-eye-5 .abilities .special-abilities .item-list .header {
     margin-top: 5px;
 }
 
-.dark-heresy .abilities .talents .item-list .name,
-.dark-heresy .abilities .traits .item-list .name,
-.dark-heresy .abilities .special-abilities .item-list .name {
+.dark-eye-5 .abilities .talents .item-list .name,
+.dark-eye-5 .abilities .traits .item-list .name,
+.dark-eye-5 .abilities .special-abilities .item-list .name {
     flex-basis: 20%;
     text-align: center;
     align-items: center;
     font-weight: bold;
 }
 
-.dark-heresy .abilities .talents .item-list .benefit,
-.dark-heresy .abilities .traits .item-list .benefit,
-.dark-heresy .abilities .special-abilities .item-list .benefit {
+.dark-eye-5 .abilities .talents .item-list .benefit,
+.dark-eye-5 .abilities .traits .item-list .benefit,
+.dark-eye-5 .abilities .special-abilities .item-list .benefit {
     flex-basis: 73%;
     text-align: center;
 }
 
-.dark-heresy .abilities .talents .item-list .button,
-.dark-heresy .abilities .traits .item-list .button,
-.dark-heresy .abilities .special-abilities .item-list .button {
+.dark-eye-5 .abilities .talents .item-list .button,
+.dark-eye-5 .abilities .traits .item-list .button,
+.dark-eye-5 .abilities .special-abilities .item-list .button {
     flex-basis: 7%;
     text-align: center;
 }
 
-.dark-heresy .abilities .talents .item-list .items .talent,
-.dark-heresy .abilities .traits .item-list .items .trait,
-.dark-heresy .abilities .special-abilities .item-list .items .special-ability {
+.dark-eye-5 .abilities .talents .item-list .items .talent,
+.dark-eye-5 .abilities .traits .item-list .items .trait,
+.dark-eye-5 .abilities .special-abilities .item-list .items .special-ability {
     width: 100%;
 }
 
-.dark-heresy .abilities .talents .item-list .items  {
+.dark-eye-5 .abilities .talents .item-list .items  {
     max-height: 202px;
     height: 202px;
 }
 
-.dark-heresy .abilities .traits .item-list .items {
+.dark-eye-5 .abilities .traits .item-list .items {
     max-height: 175px;
     height: 175px;
 }
 
-.dark-heresy .abilities .special-abilities .item-list .items {
+.dark-eye-5 .abilities .special-abilities .item-list .items {
     max-height: 100px;
     height: 100px;
 }

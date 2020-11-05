@@ -1,33 +1,33 @@
-.dark-heresy .flex {
+.dark-eye-5 .flex {
     display: flex;
 }
 
-.dark-heresy .row {
+.dark-eye-5 .row {
     flex-direction: row;
 }
 
-.dark-heresy .column {
+.dark-eye-5 .column {
     flex-direction: column;
 }
 
-.dark-heresy .border {
+.dark-eye-5 .border {
     border: 2px solid var(--color-border);
     border-radius: 3px;
     padding: 5px;
 }
 
-.dark-heresy .background {
+.dark-eye-5 .background {
     background: url(../../asset/image/background-window.jpg) repeat;
 }
 
-.dark-heresy .grow {
+.dark-eye-5 .grow {
     flex-grow: 1;
 }
 
-.dark-heresy .wrap {
+.dark-eye-5 .wrap {
     flex-wrap: wrap;
 }
 
-.dark-heresy .justify-center {
+.dark-eye-5 .justify-center {
     justify-content: center;
 }

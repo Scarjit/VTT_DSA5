@@ -1,4 +1,4 @@
-.dark-heresy .abilities {
+.dark-eye-5 .abilities {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -6,27 +6,27 @@
     margin-left: 2px;
 }
 
-.dark-heresy .abilities .item-list .header {
+.dark-eye-5 .abilities .item-list .header {
     margin-top: 5px;
 }
 
-.dark-heresy .abilities .item-list .name {
+.dark-eye-5 .abilities .item-list .name {
     flex-basis: 20%;
     text-align: center;
     align-items: center;
     font-weight: bold;
 }
 
-.dark-heresy .abilities .item-list .benefit {
+.dark-eye-5 .abilities .item-list .benefit {
     flex-basis: 80%;
     text-align: center;
 }
 
-.dark-heresy .abilities .item-list .items .ability {
+.dark-eye-5 .abilities .item-list .items .ability {
     width: 100%;
 }
 
-.dark-heresy .abilities .item-list .items  {
+.dark-eye-5 .abilities .item-list .items  {
     max-height: 241px;
     height: 241px;
 }

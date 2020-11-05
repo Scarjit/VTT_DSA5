@@ -1,35 +1,35 @@
-.dark-heresy .npc {
+.dark-eye-5 .npc {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
 }
 
-.dark-heresy .npc .header .type,
-.dark-heresy .npc .header .faction {
+.dark-eye-5 .npc .header .type,
+.dark-eye-5 .npc .header .faction {
     flex-basis: 35%;
 }
 
-.dark-heresy .npc .header .threat-level,
-.dark-heresy .npc .header .subfaction {
+.dark-eye-5 .npc .header .threat-level,
+.dark-eye-5 .npc .header .subfaction {
     flex-basis: 40%;
 }
 
-.dark-heresy .npc .header .fate,
-.dark-heresy .npc .header .fatigue {
+.dark-eye-5 .npc .header .fate,
+.dark-eye-5 .npc .header .fatigue {
     flex-basis: 23%;
 }
 
-.dark-heresy .npc .header .type select,
-.dark-heresy .npc .header .faction input,
-.dark-heresy .npc .header .threat-level input,
-.dark-heresy .npc .header .subfaction input {
+.dark-eye-5 .npc .header .type select,
+.dark-eye-5 .npc .header .faction input,
+.dark-eye-5 .npc .header .threat-level input,
+.dark-eye-5 .npc .header .subfaction input {
     width: 11em;
     height: 22px;
 }
 
-.dark-heresy .npc .header .fate input,
-.dark-heresy .npc .header .fatigue input {
+.dark-eye-5 .npc .header .fate input,
+.dark-eye-5 .npc .header .fatigue input {
     width: 2em;
     margin: 0 5px;
 }

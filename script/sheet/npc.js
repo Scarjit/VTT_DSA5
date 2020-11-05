@@ -4,8 +4,8 @@ export class NpcSheet extends DarkHeresySheet {
 
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            classes: ["dark-heresy", "sheet", "actor"],
-            template: "systems/dark-heresy/template/sheet/npc.html",
+            classes: ["dark-eye-5", "sheet", "actor"],
+            template: "systems/dark-eye-5/template/sheet/npc.html",
             width: 700,
             height: 881,
             resizable: false,

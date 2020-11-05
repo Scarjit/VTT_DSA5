@@ -9,4 +9,4 @@ Game Content: [Explicit permission by Ulisses Medien & Spiel Distribution GmbH](
 
 # Thanks to
  - Ulisses for allowing us to include any published rule
- - Perfectro for his [Dark Heresy 2E](https://github.com/Perfectro/dark-heresy-foundry-vtt) VTT module, which serves as base for this one
+ - Perfectro for his [Dark Heresy 2E](https://github.com/Perfectro/dark-eye-5-foundry-vtt) VTT module, which serves as base for this one

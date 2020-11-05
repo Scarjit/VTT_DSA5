@@ -3,8 +3,8 @@ import { DarkHeresyItemSheet } from "./item.js";
 export class CyberneticSheet extends DarkHeresyItemSheet {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
-            classes: ["dark-heresy", "sheet", "cybernetic"],
-            template: "systems/dark-heresy/template/sheet/cybernetic.html",
+            classes: ["dark-eye-5", "sheet", "cybernetic"],
+            template: "systems/dark-eye-5/template/sheet/cybernetic.html",
             width: 500,
             height: 369,
             resizable: false,
